@@ -63,6 +63,7 @@ function divide() {
 }
 
 function clear() {
-  const n1 = (document.getElementById('num1').value = '');
-  const n2 = (document.getElementById('num2').value = '');
+  document.getElementById('num1').value = '';
+  document.getElementById('num2').value = '';
+  document.getElementById('result').textContent = '';
 }
