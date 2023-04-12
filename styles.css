@@ -1,0 +1,33 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 20rem;
+    margin: 0 auto;
+    /* margin-top: 50%; */
+}
+
+form input {
+    display: block;
+    width: 100%;
+    height: 2rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+#num2 {
+    margin-top: 1rem;
+}
+
+.operation-buttons {
+    display: flex;
+    gap:4px;
+    margin-top: 2rem;
+}
+
+.operation-buttons button {
+    flex-basis:100%;
+}
